@@ -1,0 +1,9 @@
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(77, 30, 30);
+    background-image: url(./images/golfbackground.jpg);
+    
+}
+
