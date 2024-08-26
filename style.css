@@ -1,9 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 body {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    background-color: rgb(77, 30, 30);
     background-image: url(./images/golfbackground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     
 }
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+li, button, p, h1 {
+    font-family: "Montserrat", sans-serif;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 5%;
+}
+
+.navbar ul {
+    list-style-type: none;
+    
+
+}
+
+.logo, .links, button {
+    cursor: pointer;
+}
+
+.navbar li {
+    display: inline-block;
+    padding: 0 20px;
+    
+}
+
+.navbar li, button {
+    transition: all 0.3s ease 0s;
+}
+
+.navbar li:hover, button:hover{
+    color: #0088a9;
+}
+
+
+.header-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-subtext {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 25px;
+}
+.info-subtext p {
+    margin-left: 20%;
+}
+
+.info-subtext button {
+    margin-left: 39%;
+    
+}
+
+
+.info-subtext p{
+    font-weight: 600;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: rgb(12, 223, 12);
+    border-radius: 40px;
+    margin-top: 25px;
+}
+
+
+
+.info-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin-right: 20%;
+}
+
+.subtext-info-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 40px;
+    margin-left: 60%;
+    
+    
+    
+}
+
+.quote-section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+
+.sign-up-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+    padding: 10px;
+
+
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
 
